@@ -31,17 +31,17 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'facebook' => [   
-        'client_id' => '655479216441648',
-        'client_secret' => 'ccbd9d140141235f4bbeb5fdd3f59802',
-        'redirect' => 'https://mapbirdy.com/fb/callback',
-    ],
+    // 'facebook' => [
+    //     'client_id' => '655479216441648',
+    //     'client_secret' => 'ccbd9d140141235f4bbeb5fdd3f59802',
+    //     'redirect' => 'https://mapbirdy.com/fb/callback',
+    // ],
 
-        'google' => [
-        'client_id' => '961850424952-e84vof6m1q8l4vp9u8mh33v5d5t1o5fp.apps.googleusercontent.com',
-        'client_secret' =>  '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',
-        'redirect' => 'https://mapbirdy.com/gmail/callback',
-    ],
+    //     'google' => [
+    //     'client_id' => '961850424952-e84vof6m1q8l4vp9u8mh33v5d5t1o5fp.apps.googleusercontent.com',
+    //     'client_secret' =>  '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',
+    //     'redirect' => 'https://mapbirdy.com/gmail/callback',
+    // ],
 
 ];
 
@@ -50,7 +50,7 @@ return [
 ccbd9d140141235f4bbeb5fdd3f59802
 
 old details
-    'facebook' => [   
+    'facebook' => [
         'client_id' => '955739205638611',
         'client_secret' => '7aefbd6813b3812ba3c7aa90aa963de3',
         'redirect' => 'https://mapbirdy.com/fb/callback',
