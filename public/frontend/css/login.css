@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,800;1,600;1,700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/cloudy-with-a-chance-of-love');
+.text-danger{
+    color: #fa1d00;
+    font-weight: 500;
+}
+.social-login{
+    height: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(1, 178, 255); */
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container {
+    max-width: 30%;
+    margin: 0% auto;
+    padding: 5rem 3rem;
+    background-color: rgb(1, 178, 255);
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px rgba(179, 177, 177, 0.1);
+}
+
+.logo {
+    text-align: center;
+    color: #fff;
+}
+
+.logo h3 {
+    margin: 0;
+    font-size: 3vw;
+    font-family: "Cloudy with a chance of love";
+    text-align: center;
+    color: #fff;
+}
+
+.logo p {
+    margin: 0px;
+    font-size: 1vw;
+    text-align: center;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.form-group textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.form-group .login {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    background-color: #390ec3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-group .login:hover {
+    background-color: #cde4ce;
+    color: rgb(1, 178, 255);
+}
+
+.form-group .social-login {
+    margin-top: 20px;
+}
+
+.form-group .social-login button {
+    width: 49%;
+    padding: 8px;
+    margin: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.google {
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #dd4b39;
+    float: left;
+}
+
+.form-group .google:hover {
+    background-color: #cde4ce;
+    color: rgb(1, 178, 255);
+}
+
+.terms {
+    text-align: center;
+    font-size: 12px;
+}
+
+.facebook {
+    width: 42%;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #3b5998;
+    float: right;
+}
+
+.form-group .facebook:hover {
+    background-color: #cde4ce;
+    color: rgb(1, 178, 255);
+}
+
+.checkbox {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.account-exist {
+    text-align: center;
+    /* margin-top: 4rem; */
+    text-decoration: none;
+    color: #fff;
+}
+
+.account-exist a {
+    text-decoration: none;
+    color: #fff;
+    /* margin: 5rem; */
+}
+
+.checkbox-container {
+    float: left;
+    font-weight: 500;
+}
+
+.forget-password {
+    text-decoration-line: none;
+    font-weight: 500;
+    color: #fff;
+    float: right;
+}
+/* .account-exist1
+{
+    color: #ccc;
+    text-align: center;
+} */

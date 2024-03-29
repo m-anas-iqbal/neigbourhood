@@ -1,0 +1,333 @@
+
+.pagination a{
+    color:#01b2ff;
+    margin:3px;
+    text-decoration:none;
+font-weight:700;
+  }
+  .pagination {
+  justify-content: center;
+  }
+  *{
+      font-family: sans-serif;
+      font-size: 12px;
+  }
+  #map {
+    height: 100vh;
+  }
+
+  #card {
+    position: absolute;
+top: 20px;
+left: 20px;
+right: 20px;
+bottom: 20px;
+max-width: 400px;
+margin: 0;
+background-color: rgb(255, 255, 255);
+padding: 20px;
+border-radius: 8px;
+overflow: auto;
+
+scrollbar-width: none; /* Firefox */
+-ms-overflow-style: none; /* Internet Explorer 10+ */
+overflow: -moz-scrollbars-none; /* Firefox */
+overflow: -webkit-scrollbar-none;
+  }
+  #card::-webkit-scrollbar {
+display: none; /* Safari and Chrome */
+}
+
+  #vote-buttons,
+  #comment-section {
+    display: none;
+  }
+
+  .question {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #main-question {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+.fa-map-marker-alt{
+    color: rgb(203, 208,211);
+}
+#comt_btn{
+    background-color: rgb(0,178,255);
+    border:none;
+}
+
+.btn-check+.btn:hover {
+    color: white;
+    background-color: rgb(1, 178, 255);
+    border-color: rgb(1, 178, 255);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+    background-color: rgb(1, 178, 255);
+    border-color: rgb(1, 178, 255);
+}
+.input-group-text{
+
+    border-right: 0px !important;
+
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+#search-input{
+    border-left: 0px !important;
+
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    /* border-right: 0px !important; */
+}
+  #toggle-button {
+    margin-right: 2px;
+  }
+  #toggle-button:hover{
+    background-color: rgb(247, 247, 247);
+    font-size: 12px;
+  }
+
+  @media (max-width: 576px) {
+    #card {
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+  .accordion-item{
+    border: none;
+    margin-bottom: 5px;
+    /* background-color: #ddd; */
+  }
+  .accordion{
+    border-radius: 10px !important;
+  }
+  .accordion-button:focus{
+    border: none !important;
+    box-shadow:none;
+  }
+  .accordion-button{
+    background-color: rgb(247,247,247);
+    border-radius: 10px !important;
+  }
+  .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(0,178,255);
+}
+.accordion-body1 form {
+    margin: 5px;
+}
+  #comment_input{
+    background-color: #fff;
+  }
+
+  .yes-btn{
+    border-radius: 10px;
+    border:none;
+      background-color: rgb(1, 178, 255);
+  }
+
+  .no-btn{
+      border-radius: 10px;
+      border:1px solid rgb(218, 218, 218);
+      color: grey;
+      background-color: rgb(255, 255, 255);
+  }
+  #search-btn{
+      border-radius: 3px;
+      border:none;
+      background-color: rgb(1, 178, 255);
+  }
+  .logo{
+      color: rgb(1, 178, 255);
+      text-align: left;
+      font-family: "Cloudy With a Chance of Love";
+  }
+  .pagination a {
+
+  }
+  .logo-p{
+      font-size: 12px;
+      color: rgb(1, 178, 255);
+      text-align: left;
+  }
+  .comment-wrapper {
+    margin-top: 10px;
+  max-width: 100%;
+  min-height: 30px;
+  max-height: 100px;
+  overflow-y: scroll;
+    /* background-color: #fff; */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .comment-wrapper::-webkit-scrollbar {
+    width: 10px;
+  }
+  .comment-wrapper::-webkit-scrollbar-thumb {
+    width: 10px;
+    color: #01b2ff;
+
+  }
+  .user-comment {
+    background:white;
+border-radius: 5px;
+margin: 0px;
+    margin-bottom: 4px !important;
+padding: 8px;
+text-align: left;
+overflow-wrap: break-word;
+  }
+
+  .user-name {
+      font-weight: bold;
+  color: rgb(1, 178, 255);
+  font-size: 12px;
+  max-width: 100%;
+  border-bottom:  rgb(238, 232, 232) solid 1px;
+  /* margin-left: 6px; */
+  }
+  .date{
+      font-size: 10px;
+  }
+  .input-group{
+    /* background-color: rgb(247, 247, 247); */
+    border-radius: 8px;
+  }
+  .user-question{
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .question {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: left; /* Add this line */
+}
+.comments-area{
+  background-color: #fff;
+}
+.comment-section{
+  font-size: 12px;
+}
+.comment-section input{
+  font-size: 12px;
+}
+.search-input{
+  font-size: 12px;
+}
+.main-question{
+  height: 40px;
+}
+.username-container {
+flex: 1;
+text-align: left;
+}
+#votes p{
+font-size: 10px;
+color: rgb(162, 161, 161);
+}
+.accordion-content {
+    display: none;
+    padding: 5px;
+  }
+
+  .accordion-toggle {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(1, 178, 255);;
+  }
+  .single-q{
+    background-color: rgb(247, 247, 247); ;
+  }
+  .form-control {
+    background-color: rgb(238, 232, 232);
+  }
+  .input-group-text{
+    background-color: rgb(238, 232, 232) !important;
+  }
+  .border_rl{
+     border:none;
+     border-radius:0px;
+
+     /* border-top:1px solid rgb(200,193,193); */
+     /* border-bottom:1px solid rgb(200,193,193); */
+
+     border-top:1px solid rgba(200, 193, 193, 0.5);
+     border-bottom:1px solid rgba(200, 193, 193, 0.5);
+  }
+  .p_voutes{
+      font-size:8px;
+      color: rgb(200,193,193);
+  }
+  .p_voutes span{
+      font-size:8px;
+  }
+.dropbtn {
+background-color:  white;
+color:rgb(1, 178, 255);
+padding: 3px;
+border-radius:50px;
+font-size: 16px;
+border: none;
+transition:0.5s ease-in;
+}
+
+.dropdown {
+position: absolute;
+right:5%;
+top:10px;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+  left: -32px;
+position: absolute;
+background-color:white;
+color: rgb(1, 178, 255);
+
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 6px 8px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+  color:white;
+background-color: rgb(1, 178, 255);
+}
+.brand-logo img {
+  width: 215px;
+}
+
+  .container{
+    margin-top: 10px;
+    max-width: 100%;
+    
+    max-height: 100px;
+    overflow-y: auto;
+    /* background-color: #fff; */
+   
+    border-radius: 5px;
+  }
